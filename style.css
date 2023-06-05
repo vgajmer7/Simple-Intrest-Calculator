@@ -1,0 +1,46 @@
+body {
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-family: verdana;
+}
+
+.maindiv {
+    background-color: #72c368;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.highlighResultNumber {
+    background-color: orange;
+}
+
+button {
+    border: 1px solid orange;
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input {
+    height: 20px;
+}
+
+select {
+    height: 25px;
+}
